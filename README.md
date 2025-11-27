@@ -28,8 +28,9 @@ python manage.py migrate
 python manage.py runserver
 
 The API will be live at http://localhost:8000/api/
+```bash
 
-2. Frontend Setup
+### 2. Frontend Setup 
 Open a new terminal, navigate to the frontend folder, and start a simple server:
 
 Bash
