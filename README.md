@@ -22,3 +22,15 @@ source venv/bin/activate
 
 Install requirements:
 pip install -r requirements.txt
+
+Run migrations and start server:
+python manage.py migrate
+python manage.py runserver
+
+The API will be live at http://localhost:8000/api/
+
+2. Frontend Setup
+Open a new terminal, navigate to the frontend folder, and start a simple server:
+
+Bash
+cd task-analyzer/frontend
